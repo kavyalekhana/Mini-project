@@ -1,0 +1,136 @@
+SQL> insert into employee_master values(employee_idseq.nextval,'Amruta Deokar','AmrutaD','coordinator');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Sejal Jain','SejalJ','coordinator');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Kavya Lekhana','KavyaL','coordinator');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Ranjith Vallambhatla','RanjithV','coordinator');
+
+1 row created.
+
+_______
+
+
+SQL> insert into faculty_skill values(100,'Management');
+
+1 row created.
+
+SQL> insert into faculty_skill values(101,'Presentation');
+
+1 row created.
+
+SQL> insert into faculty_skill values(102,'Teaching');
+
+1 row created.
+
+SQL> insert into faculty_skill values(103,'Programming');
+
+___________
+SQL> insert into training_program values(training_codeseq.nextval,10000,100,'01-JAN-18','15-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10002,102,'01-JAN-18','16-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10003,103,'01-JAN-18','17-JAN-18');
+
+1 row created.
+___________________________
+
+SQL> insert into training_program values(training_codeseq.nextval,10000,100,'01-JAN-18','15-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10001,101,'01-JAN-18','16-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10002,102,'01-JAN-18','17-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10003,103,'01-JAN-18','17-JAN-18');
+
+1 row created.
+
+SQL> commit;
+____________________________
+SQL> insert into employee_master values(employee_idseq.nextval,'Twinkle','tinku1','participant');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Tony','tony1','participant');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Rinku','rinku1','participant');
+
+1 row created.
+
+SQL> insert into employee_master values(employee_idseq.nextval,'Pinku','pinku1','participant');
+
+1 row created.
+
+SQL> commit;
+__________________________________
+SQL> insert into training_program values(training_codeseq.nextval,10000,100,'01-JAN-18','15-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10001,101,'01-JAN-18','16-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10002,102,'01-JAN-18','17-JAN-18');
+
+1 row created.
+
+SQL> insert into training_program values(training_codeseq.nextval,10003,103,'01-JAN-18','17-JAN-18');
+
+1 row created.
+
+SQL> commit;
+______________
+SQL> insert into trainingparticipant_enrollment values(500,104);
+
+1 row created.
+
+SQL> insert into trainingparticipant_enrollment values(501,105);
+
+1 row created.
+
+SQL> insert into trainingparticipant_enrollment values(502,106);
+
+1 row created.
+
+SQL> insert into trainingparticipant_enrollment values(503,107);
+
+1 row created.
+___________________________________
+
+SQL> insert into feedback_master values(500,100,1,2,3,4,5,'Query resolved','focus on syntax');
+
+1 row created.
+
+SQL> insert into feedback_master values(501,101,1,2,3,4,5,'resolved issues','technical issues');
+
+1 row created.
+
+SQL> insert into feedback_master values(502,102,1,2,3,4,5,'helped with algorithm','logical errors');
+
+1 row created.
+
+SQL> insert into feedback_master values(503,103,1,2,3,4,5,'software installed','ensure prior checks');
+
+1 row created.
+
+SQL> commit;
+____________________________
